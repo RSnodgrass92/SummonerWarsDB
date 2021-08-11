@@ -4,7 +4,7 @@ const factionNamesArr=["Breakers", "Cave Goblins", "Fallen Kingdom", "Phoenix El
 
 const factionBtnsArr = factionNamesArr.sort().map(a => {
     return(
-        <div className="row my-1">
+        <div className="row my-1" key={factionNamesArr.indexOf(a)}>
         <button className="col">{a}</button>
         </div>
     )
