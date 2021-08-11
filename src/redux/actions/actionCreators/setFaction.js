@@ -5,7 +5,7 @@ const setFaction = (faction) =>
     {
         return {
             type: actionTypes.SET_FACTION, 
-            faction: faction
+            name: faction
         }
     }
 }
