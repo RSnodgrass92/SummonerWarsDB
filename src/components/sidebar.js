@@ -1,7 +1,13 @@
 import React, {Component} from "react"
 import SideBarFactionBtn from "./sidebarFactionBtn"
+import {factionsArr} from "../factionInfo/index.js"
 
-const factionNamesArr=["Breakers", "Cave Goblins", "Fallen Kingdom", "Phoenix Elves", "Polar Dwarves", "Savanna Elves", "Tundra Orcs", "Vanguards"]
+const factionNamesArr=[]
+
+for(let x=0; x<factionsArr.length; x++)
+{
+    factionNamesArr.push(factionsArr[x].factionName)
+}
 
 const factionBtnsArr = factionNamesArr.sort().map(a => {
     return(
@@ -13,6 +19,7 @@ const factionBtnsArr = factionNamesArr.sort().map(a => {
 
 class SideBar extends Component
 {
+    
     render()
     {
         return(

@@ -17,7 +17,7 @@ class InfoPane extends Component
                     <div className="col">{this.props.faction}</div>
                 </div>
                 <div className="row">
-                    <div className="col">Summoner Wars DB</div>
+                    <div className="col">{this.props.faction}</div>
                     <div className="col">Summoner Wars DB</div>
                 </div>
             </div>
