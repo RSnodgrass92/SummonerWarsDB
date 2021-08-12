@@ -1,4 +1,4 @@
-const factionSelectReducer = (state="Breakers",action) =>
+const factionSelectReducer = (state={factionName: "Breakers"},action) =>
 {
     switch(action.type)
     {

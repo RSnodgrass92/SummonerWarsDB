@@ -15,7 +15,7 @@ class SideBarFactionBtn extends Component
     {
         return(
             <>
-                <Button variant="danger" onClick={()=>this.props.setFaction(this.props.faction)}>{this.props.faction}</Button>
+                <Button variant="danger" onClick={()=>this.props.setFaction(this.props.faction)}>{this.props.faction.factionName}</Button>
             </>
             )
     }
