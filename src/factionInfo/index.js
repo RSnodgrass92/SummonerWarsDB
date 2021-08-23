@@ -1,12 +1,14 @@
+import factionBreakers from "./breakersInfo"
 
 const factionsArr =[]
 
 class Faction
  {
-    constructor(factionName, summoner, unitsArr, eventsArr)
+    constructor(factionName, summoner, champions, unitsArr, eventsArr)
     {
         this.factionName= factionName
         this.summoner= summoner
+        this.champions=champions
         this.unitsArr= unitsArr
         this.eventsArr= eventsArr
     }
@@ -17,8 +19,7 @@ class Faction
         return this
     }
 }
-
-new Faction("Breakers").add()
+new Faction (factionBreakers.name, factionBreakers.summoner, factionBreakers.champions, factionBreakers.units, factionBreakers.events).add()
 new Faction("Cave Goblins").add()
 new Faction("Fallen Kingdom","Ret-Talus").add()
 new Faction("Phoenix Elves").add()
