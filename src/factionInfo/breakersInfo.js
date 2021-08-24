@@ -21,4 +21,4 @@ import perplexingTempest from "../assets/breakers/cards-breakers-perplexing_temp
 const factionBreakers= {name: "Breakers", summoner: breakersSummoner, champions: [gulldune, gwalwark,kalal].sort(), units:[deceiver, windArcher, windMage, mindWitch].sort(), events:[perplexingTempest,mindControl,hypnoticCall,blast].sort()}
 
 
-export default factionBreakers
+export default breakers

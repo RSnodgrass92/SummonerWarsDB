@@ -1,6 +1,6 @@
-import factionBreakers from "./breakersInfo"
+import Breakers from "./breakersInfo"
 
-const factionsArr=[factionBreakers]
+const factionsArr=[breakers]
 
 factionsArr.sort((a,b)=>a.name>b.name ? 1: -1)
 
