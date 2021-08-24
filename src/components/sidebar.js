@@ -6,16 +6,17 @@ import {factionsArr} from "../factionInfo/index.js"
 const factionBtnsArr = factionsArr.map(a => {
     return(
         <div className="row my-2" key={factionsArr.indexOf(a)}>
-        <SideBarFactionBtn  className="col"  faction={a}/>
+        <SideBarFactionBtn  className="col"  faction={a.name}/>
         </div>
     )
 })
 
 class SideBar extends Component
 {
-
+ 
     render()
     {
+        console.log(factionsArr)
         return(
             <>
                 <div className="container">

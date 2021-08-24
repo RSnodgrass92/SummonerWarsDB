@@ -13,7 +13,7 @@ class Main extends Component
                     <div className="col-3">
                             <SideBar />
                         </div>
-                        <div className="col">
+                        <div className="col ">
                             <InfoPane />
                         </div>
                     </div>
