@@ -18,7 +18,7 @@ import hypnoticCall from "../assets/breakers/cards-breakers-hypnotic_call.png"
 import mindControl from "../assets/breakers/cards-breakers-mind_control.png"
 import perplexingTempest from "../assets/breakers/cards-breakers-perplexing_tempest.png"
 
-const factionBreakers= {name: "Breakers", summoner: breakersSummoner, champions: [gulldune, gwalwark,kalal].sort(), units:[deceiver, windArcher, windMage, mindWitch].sort(), events:[perplexingTempest,mindControl,hypnoticCall,blast].sort()}
+const breakers= {name: "Breakers", summoner: breakersSummoner, champions: [gulldune, gwalwark,kalal].sort(), units:[deceiver, windArcher, windMage, mindWitch].sort(), events:[perplexingTempest,mindControl,hypnoticCall,blast].sort()}
 
 
 export default breakers
