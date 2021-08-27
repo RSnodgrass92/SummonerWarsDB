@@ -1,33 +1,14 @@
+import breakers from "./breakersInfo"
+import caveGoblins from "./caveGoblinsInfo"
+import fallenKingdom from "./fallenKingdomInfo"
+import phoenixElves from "./phoenixElvesInfo"
+import polarDwarves from "./polarDwarvesInfo"
+import savannaElves from "./savannaElvesInfo"
+import tundraOrcs from "./tundraOrcsInfo"
+import vanguards from "./vanguardsInfo"
 
-const factionsArr =[]
+const factionsArr=[caveGoblins, breakers, fallenKingdom, phoenixElves, polarDwarves, savannaElves, tundraOrcs, vanguards]
 
-class Faction
- {
-    constructor(factionName, summoner, unitsArr, eventsArr)
-    {
-        this.factionName= factionName
-        this.summoner= summoner
-        this.unitsArr= unitsArr
-        this.eventsArr= eventsArr
-    }
-
-    add()
-    {
-        factionsArr.push(this)
-        return this
-    }
-}
-
-new Faction("Breakers").add()
-new Faction("Cave Goblins").add()
-new Faction("Fallen Kingdom","Ret-Talus").add()
-new Faction("Phoenix Elves").add()
-new Faction("Polar Dwarves").add()
-new Faction("Savanna Elves").add()
-new Faction("Tundra Orcs").add()
-new Faction("Vanguards").add()
-
-
-factionsArr.sort((a,b)=>a.factionName>b.factionName ? 1: -1)
+factionsArr.sort((a,b)=>a.name>b.name ? 1: -1)
 
 export {factionsArr}
