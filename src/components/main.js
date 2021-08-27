@@ -10,10 +10,10 @@ class Main extends Component
             <>
                 <div className="container">
                     <div className="row mt-4">
-                    <div className="col-3">
+                    <div className="col-3 d-none d-lg-block">
                             <SideBar />
                         </div>
-                        <div className="col ">
+                        <div className="col-lg-9 col-12">
                             <InfoPane />
                         </div>
                     </div>
