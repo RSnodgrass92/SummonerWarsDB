@@ -8,7 +8,7 @@ class Main extends Component
     {
         return(
             <>
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row mt-4">
                     <div className="col-3 d-none d-lg-block">
                             <SideBar />
