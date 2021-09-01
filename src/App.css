@@ -10,6 +10,9 @@ div, html{
 .sub-title{
         font-size: 1.7em; 
 }
+.mobile-sub-title{
+        font-size: 1.2em;
+}
 
 .navbar{
         background-color:white;
@@ -79,4 +82,10 @@ div.modal-title.h4{
 .modal-filler-button
 {
          background: rgb(202, 202, 202);
+}
+#mobile-content-wrapper{
+        padding: 0;
+}
+.img-fluid.mobile-img-wrapper{
+        padding:0; 
 }
