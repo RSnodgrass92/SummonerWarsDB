@@ -52,7 +52,6 @@ class InfoPane extends Component
 
 
                 {/* mobile */}
-
                 <div className="container d-lg-none">
                     <div className="row">
                         <h1 className="col sub-title">{factionObj.name}</h1>

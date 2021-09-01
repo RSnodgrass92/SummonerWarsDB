@@ -1,4 +1,4 @@
 import setFaction from "./setFaction"
+import setModalStatus from "./setModalStatus"
 
-
-export {setFaction}
+export {setFaction, setModalStatus}

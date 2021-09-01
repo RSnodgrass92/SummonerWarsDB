@@ -25,11 +25,20 @@ span.navbar-brand{
         font-size: .7em;
         padding: 5px;
 }
+#modal-btn{
+        font-size: 1em;
+        padding-top: 1px;
+        padding-bottom: 1px;
+}
 
-#navbar{
+#navbar {
         background:white;
-        padding-left: 5px;
-        
+        padding-left: 5px
+}
+#modal-content-filler{
+        background: rgb(202, 202, 202);
+        height: 80vh;
+        overflow: auto;
 }
 
 .info-pane-container{
@@ -49,4 +58,25 @@ border-radius: 10px;
 .info-pane-container::-webkit-scrollbar-thumb {
 border-radius: 10px;
 background: #dc3545;
+}
+
+div.modal-header{
+        background: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: solid #dc3545 1px;
+}
+div.modal-title.h4{
+       background: white;
+       color:rgb(70, 70, 70);
+       font-size: 1em;  
+       font-weight: normal;
+}
+.modal-body{
+        border: solid #dc3545 1px;
+        background:rgb(202, 202, 202);
+}
+.modal-filler-button
+{
+         background: rgb(202, 202, 202);
 }
