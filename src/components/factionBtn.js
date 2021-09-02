@@ -6,11 +6,6 @@ import {setFaction, setModalStatus} from "../redux/actions/actionCreators/index.
 
 class FactionBtn extends Component
 {
-    constructor(props)
-    {
-        super(props)
-    }
-
     render()
     {
         return(
