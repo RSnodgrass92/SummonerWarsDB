@@ -5,21 +5,20 @@ import {factionsArr} from "../factionInfo/index.js"
 
 const factionBtnsArr = factionsArr.map(a => {
     return(
-        <div className="row my-2" key={factionsArr.indexOf(a)}>
+        <div className="row my-2 modal-filler-button" key={factionsArr.indexOf(a)}>
         <FactionBtn  className="col"  faction={a.name}/>
         </div>
     )
 })
 
-class SideBar extends Component
+class ModalContent extends Component
 {
  
     render()
     {
-
         return(
             <>
-                <div className="container">
+                <div className="container" id="modal-content-filler">
                     {
                         factionBtnsArr
                     }
@@ -29,4 +28,4 @@ class SideBar extends Component
     }
     
 }
-export default SideBar
+export default ModalContent

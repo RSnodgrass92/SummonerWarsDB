@@ -1,1 +1,2 @@
 export const SET_FACTION= "SET_FACTION"
+export const SET_MODAL_STATUS= "SET_MODAL_STATUS"
