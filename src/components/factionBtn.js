@@ -4,7 +4,7 @@ import {connect} from "react-redux"
 import {setFaction, setModalStatus} from "../redux/actions/actionCreators/index.js"
 
 
-class SideBarFactionBtn extends Component
+class FactionBtn extends Component
 {
     constructor(props)
     {
@@ -36,4 +36,4 @@ const mapDispatchToProps= ()=> {
    }
   
 
-export default connect(undefined,mapDispatchToProps())(SideBarFactionBtn)
+export default connect(undefined,mapDispatchToProps())(FactionBtn)

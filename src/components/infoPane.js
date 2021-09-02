@@ -19,7 +19,7 @@ class InfoPane extends Component
                 <>
 
                 {/* desktop */}
-                <div className="container d-none d-lg-block info-pane-container">
+                <div className="container d-none d-lg-block info-pane-container text-center">
                     <div className="row">
                         <h1 className="col sub-title">{factionObj.name}</h1>
                     </div>
@@ -53,7 +53,7 @@ class InfoPane extends Component
 
 
                 {/* mobile */}
-                <div className="container d-lg-none" id="mobile-content-wrapper">
+                <div className="container d-lg-none text-center" id="mobile-content-wrapper">
                     <div className="row">
                         <h1 className="col mobile-sub-title">{factionObj.name}</h1>
                     </div>
