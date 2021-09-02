@@ -11,7 +11,7 @@ const factionBtnsArr = factionsArr.map(a => {
     )
 })
 
-class SideBar extends Component
+class FactionSelect extends Component
 {
  
     render()
@@ -29,4 +29,4 @@ class SideBar extends Component
     }
     
 }
-export default SideBar
+export default FactionSelect

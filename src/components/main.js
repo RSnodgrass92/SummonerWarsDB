@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 import InfoPane from "./infoPane"
-import SideBar from "./sidebar"
+import FactionSelect from "./factionSelect"
 
 class Main extends Component
 {
@@ -11,7 +11,7 @@ class Main extends Component
                 <div className="container-fluid">
                     <div className="row mt-4">
                     <div className="col-3 d-none d-lg-block">
-                            <SideBar />
+                            <FactionSelect />
                         </div>
                         <div className="col-lg-9 col-12">
                             <InfoPane />
