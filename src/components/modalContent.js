@@ -16,7 +16,6 @@ class ModalContent extends Component
  
     render()
     {
-        console.log(factionsArr)
         return(
             <>
                 <div className="container" id="modal-content-filler">

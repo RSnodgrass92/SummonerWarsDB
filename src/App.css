@@ -89,3 +89,11 @@ div.modal-title.h4{
 .img-fluid.mobile-img-wrapper{
         padding:0; 
 }
+
+.container.faction-wheel-wrapper{
+        padding:0;
+}
+
+.text-highlight{
+        color:#dc3545;
+}

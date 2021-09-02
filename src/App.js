@@ -9,7 +9,7 @@ function App() {
     <Provider store={store}>
     <div className="App">
     <MobileNav />
-    <h1 className="d-none d-lg-block page-title text-center">Summoner Wars DB</h1>
+    <h1 className="d-none d-lg-block page-title text-center">Summoner Wars <span className="text-highlight">DB</span></h1>
     <Main/>
     </div>
     </Provider>

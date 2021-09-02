@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import {connect} from "react-redux"
 import {factionsArr} from "../factionInfo/index.js"
+import factionWheelImg from "../assets/build_symbol_wheel.jpg"
 
 class InfoPane extends Component
 {
@@ -88,7 +89,16 @@ class InfoPane extends Component
                 )
         }
         else{
-            return(<></>)
+            return(
+            <>
+            <div className="container faction-wheel-wrapper">
+                <div className="row">
+                    <div className="col faction-wheel-wrapper">
+                    <img className="col img-fluid" src={factionWheelImg}/>
+                    </div>
+                </div>
+            </div>
+            </>)
         }
         }
         

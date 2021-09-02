@@ -4,7 +4,6 @@ import ModalContent from "../components/modalContent"
 import {connect} from "react-redux"
 import {setModalStatus} from "../redux/actions/actionCreators"
 
-// TODO add change functionality to button.
 class MobileNav extends Component
 {
     constructor(props)
@@ -14,7 +13,6 @@ class MobileNav extends Component
 
     render()
     {
-        console.log(this.props)
         return(
             <> 
             <Navbar  sticky="top" className="d-lg-none">

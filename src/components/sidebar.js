@@ -16,7 +16,7 @@ class SideBar extends Component
  
     render()
     {
-        console.log(factionsArr)
+
         return(
             <>
                 <div className="container">

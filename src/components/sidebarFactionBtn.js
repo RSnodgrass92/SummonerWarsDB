@@ -13,7 +13,6 @@ class SideBarFactionBtn extends Component
 
     render()
     {
-        console.log(this.props)
         return(
             <>
                 <Button variant="danger" onClick={()=>
